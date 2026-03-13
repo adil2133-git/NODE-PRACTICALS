@@ -10,7 +10,7 @@ const server = http.createServer((req,res) => {
     if(pathname === "/writefile"){
         const text = query.text
 
-        fs.writeFile("writefile.txt", `${text}`, (err) => {
+        fs.writeFile("newfile.txt", `${text}`, (err) => {
             if(err){
                 res.end("error creating file")
             }else{
