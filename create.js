@@ -9,7 +9,7 @@
 
 const fs = require("fs")
 
-fs.writeFile("data.txt","Node.js File system practice", (err) => {
+fs.writeFile("daaata.txt","Node.js File system practice", (err) => {
     if(err) throw err
 
     console.log("File created successfully")
